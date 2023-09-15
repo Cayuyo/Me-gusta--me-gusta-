@@ -59,6 +59,7 @@ h1 {
     -moz-border-radius: 25%;
     -ms-border-radius: 25%;
     -o-border-radius: 25%;
+    background-color: rgba(243, 182, 0, 0.472);
 }
 
 .img-Perfil img {
