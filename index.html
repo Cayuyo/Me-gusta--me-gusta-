@@ -7,16 +7,39 @@
     <title>Aumento "Like" by Coding DOjo & Cayuyo</title>
 
     <link rel='stylesheet' href='./css/styles.css'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Manrope&family=Roboto&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+    <div class="nav">
+        <h1 class="nav-title">Dojonary</h1>
+    </div>
+    <h1>Tu feed</h1>
     <div class="contenido">
         <div class="side-left">
+            <div class="caja-left">
+                <div class="img-Perfil">
+                    <img src='./icons/user-circle.png' alt='Imagen de perfil'>
+                </div>
+                <div>
+                    <a href='#'>Agregar un avatar</a>
+                </div>
+                <div>
+                    <h2>Eduardo Vera</h2>
+                </div>
+            </div>
+        </div>
+        <div class="side-right">
             <div class="caja1">
                 <div class="arriba">
                     <h1>Cayuyos</h1>
                     <h2><i class="like1">0 Like(s)</i></h2>
-                    <button class="btn1" onclick="meGusta('like1')" title="Haz clic para dar Like a Cayuyos">Like 'C'</button>
+                    <button class="btn" onclick="meGusta('like1')" title="Haz clic para dar Like a Cayuyos">Like
+                        'C'</button>
                 </div>
                 <p>Cada <b>"like"</b> que des, será una moneda para mi.</p>
             </div>
@@ -24,9 +47,19 @@
                 <div class="arriba">
                     <h1>Ninjas</h1>
                     <h2><i class="like2">0 Like(s)</i></h2>
-                    <button class="btn1" onclick="meGusta('like2')" title="Haz clic para dar Like a Ninjas">Like 'N'</button>
+                    <button class="btn" onclick="meGusta('like2')" title="Haz clic para dar Like a Ninjas">Like
+                        'N'</button>
                 </div>
-                <p>Cada <b>"like"</b> que des, será una moneda para mi.</p>
+                <p>Cada <b>"like"</b> que des, será una moneda para Ninjas.</p>
+            </div>
+            <div class="caja3">
+                <div class="arriba">
+                    <h1>POKIS</h1>
+                    <h2><i class="like3">0 Like(s)</i></h2>
+                    <button class="btn" onclick="meGusta('like3')" title="Haz clic para dar Like a POKIS">Like
+                        'N'</button>
+                </div>
+                <p>Cada <b>"like"</b> que des, será una moneda para POKIS.</p>
             </div>
         </div>
     </div>
